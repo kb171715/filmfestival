@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Film festival</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+   <meta charset="UTF-8">
+  <meta name="description" content="spend time with movies">
+  <meta name="keywords" content="film festival, movies, cinema">
+  <meta name="author" content="Karlis">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+  <link rel="stylesheet" href="style.css"/>
+    <style type="text/css">
+  </style>
+</head>
+
+<nav class="anim navCol navbar navbar-inverse navbar-fixed-top">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" style="font-size: 26px" href="index.html" id="anim">Film Festival</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+
+                    <li><button id="anim" class="dropbtn" onclick="window.location.href='#about'">About</button></li>
+          <li><button id="anim" class="dropbtn" onclick="window.location.href='#news'">News</button></li>
+                    <li><button id="anim" class="dropbtn" onclick="window.location.href='#pictures'">Movies</button></li>
+          <li><button id="anim" class="dropbtn" onclick="window.location.href='register.html'">Register</button></li>
+          <li><div class="dropdown">
+
+
+          <li><button id="anim" class="dropbtn" onclick="window.location.href='#faq'">FAQ</button></li>
+            
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+
+<section id="pictures">
+
+<h1 style="text-align: center; margin: 24px">Now we are showing:</h1>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade" style="margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle">
+  <div class="numbertext">1 / 7</div>
+
+  <img src="film1.jpg" onclick="currentSlide(2)"  style=" max-width: 100%;  max-height: 80vh">
+ <div><p>starting at 10:00 and you can register <a href="register.html"><b>here</b></p></a></div>
+</div>
+
+<div class="mySlides fade" style="margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle">
+  <div class="numbertext">2 / 7</div>
+    <img src="film7.jpg" onclick="currentSlide(3)"  style=" max-width: 100%;  max-height: 80vh">
+     <div><p>starting at 12:00 and you can register <a href="register.html"><b>here</b></p></a></div>
+
+</div>
+
+
+<div class="mySlides fade" style="margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle">
+  <div class="numbertext">3 / 7</div>
+  <img src="film2.jpg" onclick="currentSlide(4)"  style=" max-width: 100%; max-height: 80vh">
+   <div><p>starting at 14:00 and you can register <a href="register.html"><b>here</b></p></a></div>
+ 
+</div>
+
+<div class="mySlides fade" style="margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle">
+  <div class="numbertext">4 / 7</div>
+  <img src="film3.jpg" onclick="currentSlide(5)"  style=" max-width: 100%; max-height: 80vh">
+  <div><p>starting at 16:00 and you can register <a href="register.html"><b>here</b></p></a></div>
+</div>
+
+<div class="mySlides fade" style="margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle">
+  <div class="numbertext">5 / 7</div>
+  <img src="film4.jpg" onclick="currentSlide(6)"  style=" max-width: 100%; max-height: 80vh">
+  <div><p>starting at 18:00 and you can register <a href="register.html"><b>here</b></p></a></div>
+</div>
+
+<div class="mySlides fade" style="margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle">
+  <div class="numbertext">6 / 7</div>
+  <img src="film5.jpg" onclick="currentSlide(7)"  style="  max-width: 100%; max-height: 80vh">
+  <div><p>starting at 20:00 and you can register <a href="register.html"><b>here</b></p></a></div>
+</div>
+
+<div class="mySlides fade" style="margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle">
+  <div class="numbertext">7 / 7</div>
+  <img src="film6.jpg" onclick="currentSlide(1)" style=" max-width: 100%; max-height: 80vh" >
+  <div><p>starting at 22:00 and you can register <a href="register.html"><b>here</b></p></a></div>
+</div>
+
+<a class="prev"  onclick="plusSlides(-1)">&#10094;</a>
+<a class="next"  onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+ 
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+
+  <span class="dot" onclick="currentSlide(2)"></span> 
+
+  <span class="dot" onclick="currentSlide(3)"></span> 
+
+  <span class="dot" onclick="currentSlide(4)"></span> 
+
+  <span class="dot" onclick="currentSlide(5)"></span> 
+
+  <span class="dot" onclick="currentSlide(6)"></span> 
+
+  <span class="dot" onclick="currentSlide(7)"></span> 
+
+
+</div> 
+
+
+</section>
+
+<br>
+<section  style="margin-left: 24px; margin-right: 24px; margin-top: 12px;" id="about">
+  <div>
+    <h2>About</h2>
+  <p>This is Film Festival, we will show some movies, you will come and watch them, possibly buy some drinks or snacks.
+    Film, also called movie, motion picture or moving picture, is a visual art-form used to simulate experiences that communicate ideas, stories, perceptions, feelings, beauty, or atmosphere through the use of moving images. These images are generally accompanied by sound, and more rarely, other sensory stimulations. The word "cinema", short for cinematography, is often used to refer to filmmaking and the film industry, and to the art form that is the result of it.
+
+The moving images of a film are created by photographing actual scenes with a motion-picture camera, by photographing drawings or miniature models using traditional animation techniques, by means of CGI and computer animation, or by a combination of some or all of these techniques, and other visual effects. </p>
+</div>
+</section>
+
+<br>
+<!--
+end of about and start of movie list
+-->
+
+
+
+
+<section id="news" style="margin-top: 12px">
+  <div style="margin-right: 24px; margin-left: 24px">
+
+    <h2 style="text-align: center;">News:</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      
+  <article>
+  <h1><a href="seats.html" title="New seats" style="color: rgb(99, 22, 22)">Brand new seats</a></h1>
+  <img src="" alt="" />
+  <p>We just received new and comfortable seats and you will enjoy.</p>
+</article>
+    </div>
+
+    <div class="col-sm-6">
+        <article>
+  <h1><a href="weather.html" title="Weather" style="color: rgb(99, 22, 22)">Good weather next weekend</a></h1>
+  <img src="" alt="" />
+  <p>Latest weather forecast shows that all summer we will have only sunshine.</p>
+</article>
+    </div>
+  
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <article>
+  <h1><a href="offer.html" title="Special offer" style="color: rgb(99, 22, 22)">New movies coming soon</a></h1>
+  <img src="" alt="" />
+  <p>We will be showing new movies very soon, and one of them is new James Bond movie. </p>
+</article>
+</div>
+
+    <div class="col-sm-6">
+        <article>
+  <h1><a href="weekend.html" title="weekend" style="color: rgb(99, 22, 22)">Film festival is getting popular</a></h1>
+  <img src="" alt="" />
+  <p>More and more people ar choosing to spend weekend at Film Festival </p>
+</article>
+    </div>
+  
+  </div>
+
+  <!-- news article
+
+  -->
+</div>
+</section>
+
+<section style="margin-right: 24px; margin-left: 24px; padding-bottom: 70px" id="faq">
+
+   <h2 style="text-align: center;">FAQ:</h2>
+
+<div class="row" style="margin: 24px">
+    <div class="col-sm-4">
+           <button type="button" class="collapsible btn-block btn-lg" data-toggle="collapse" data-target="#park" id="buttonAnim">Can I park my car there?</button>
+  <div id="park" class="collapse" style="text-align: center; 
+  padding: 3px;
+  background-color: rgb(219, 232, 255);
+  border: 1px solid red;
+  border-radius: 20px;">
+    <h4>Yes, you can.</h4>
+  </div>
+    </div>
+
+    <div class="col-sm-4">
+        <button type="button" class="collapsible btn-block btn-lg" data-toggle="collapse" data-target="#cost" id="buttonAnim">How much it costs.</button>
+  <div id="cost" class="collapse" style="text-align: center; 
+  padding: 3px;
+  background-color: rgb(219, 232, 255);
+  border: 1px solid red;
+  border-radius: 20px;">
+    <h4>Movies are for free, but you can buy some drinks or snacks.</h4>
+  </div>
+    </div>
+
+    <div class="col-sm-4">
+        <button type="button" class="collapsible btn-block btn-lg" data-toggle="collapse" data-target="#seats" id="buttonAnim">How many people can go there.</button>
+  <div id="seats" class="collapse" style="text-align: center; 
+  padding: 3px;
+  background-color: rgb(219, 232, 255);
+  border: 1px solid red;
+  border-radius: 20px;">
+    <h4>We have 1500 seats.</h4>
+  </div>
+    </div>
+  </div>
+
+<!---
+FAQ
+-->
+
+
+
+
+
+
+
+ 
+</section>
+
+
+
+<footer>
+
+<div style="padding-top: 30px">
+
+  <a href="https://www.facebook.com/" class="facebook" target="blank_"><i class="fa fa-facebook" style="width: 35px"></i></a> 
+  <a href="https://www.instagram.com/" class="instagram" target="blank_"><i class="fa fa-instagram" style="width: 35px"></i></a>
+  <a href="https://www.twitter.com/" class="twitter" target="blank_"><i class="fa fa-twitter" style="width: 35px"></i></a>
+
+  <a href="https://www.google.com"><button><b>Boston Garden</b></button></a>
+  <a href="https://www.google.com"><button><b>Boston news</b></button></a>
+
+</div>
+</footer>
+
+<script src="film.js">
+
+
+</script>
+
+
+</body>
+</html>
